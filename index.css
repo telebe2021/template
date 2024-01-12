@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  max-width: 1400px;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.sect1 {
+  background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sect1 .sect11 {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  gap: 20px;
+  padding: 150px;
+  flex-direction: column;
+}
+.sect1 .sect11 .disp {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.sect1 .sect11 .disp div {
+  width: 100px;
+  height: 3px;
+  background-color: #eb566c;
+}
+.sect1 .sect11 .disp span {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+  color: #eb566c;
+  display: inline-block;
+  position: relative;
+  padding-left: 100px;
+}
+.sect1 .sect11 h1 {
+  margin-bottom: 33px;
+}
+.sect1 .sect11 p {
+  font-size: 18px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+.sect1 .sect11 .btn {
+  width: 200px;
+  text-decoration: none;
+  background: #ff2143;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.sect1 .sect11 .btn:hover {
+  color: #ff2143;
+  background-color: white;
+}
+
+.sect2 {
+  width: 100%;
+  height: 600px;
+}
+.sect2 .sect22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 500px;
+}
+.sect2 .sect22 .spu {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.sect2 .sect22 .spu span {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+  color: #f0576e;
+  display: inline-block;
+  position: relative;
+  padding-left: 68px;
+}
+.sect2 .sect22 .spu span ::after,
+.sect2 .sect22 .spu span ::before {
+  box-sizing: border-box;
+}
+.sect2 .sect22 .spu h2 {
+  font-size: 60px;
+}
+.sect2 .sect22 .uclu {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: aqua;
+  top: 50px;
+}
+.sect2 .sect22 .uclu .dicc {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+.sect2 .sect22 .uclu .dicc .cran {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sect2 .sect22 .uclu .dicc .cran h3 {
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+}
+.sect2 .sect22 .uclu .dicc .cran p {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.sect3 {
+  background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.sect3 .sect33 .ikili {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 50px;
+}
+.sect3 .sect33 .ikili .text1 {
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+.sect3 .sect33 .ikili .text1 .our {
+  font-size: 30px;
+  color: #ffffff;
+}
+.sect3 .sect33 .ikili .text1 .text2 {
+  color: #000;
+  width: 70%;
+  font-size: larger;
+}
+.sect3 .sect33 .ikili .text1 .text3 {
+  color: #5c5959;
+  width: 70%;
+  font-size: larger;
+}
+.sect3 .sect33 .ikili .text1 .btn {
+  width: 200px;
+  text-decoration: none;
+  background: #ff2143;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.sect3 .sect33 .ikili .text1 .btn:hover {
+  color: #ff2143;
+  background-color: white;
+}/*# sourceMappingURL=index.css.map */

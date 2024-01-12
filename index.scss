@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.con{
+    max-width: 1400px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+@import'nav';
+@import'sect1';
+@import'sect2';
+@import'sect3';
+// @import'';
+// @import'';

@@ -1,0 +1,81 @@
+.sect2 {
+    width: 100%;
+    height: 600px;
+    .sect22 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: 500px;
+
+        .spu {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+
+            span {
+
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin-bottom: 17px;
+                text-transform: uppercase;
+                color: #f0576e;
+                display: inline-block;
+                position: relative;
+                padding-left: 68px;
+
+                ::after,
+                ::before {
+                    box-sizing: border-box;
+                }
+            }
+                h2 {
+                    font-size: 60px;
+                }
+          
+        }
+
+        .uclu {
+            display: flex;
+            flex-direction: row;
+            height: 400px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: aqua;
+            top: 50px;
+
+            .dicc {
+                width: 30%;
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;   
+              
+                gap: 20px;
+                .cran {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 20px;
+
+                    h3 {
+
+                        font-size: 28px;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                }
+            }
+        }
+    }
+}
